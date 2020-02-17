@@ -51,6 +51,7 @@ Failures:
 
   1) #introduction takes in an argument of a name and puts out a phrase with that name using string interpolation
      Failure/Error: expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
+
      ArgumentError:
        wrong number of arguments (1 for 0)
      # ./lib/introduction.rb:9:in `introduction'
